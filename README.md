@@ -1,11 +1,10 @@
-# DSN_AI_BOOTCAMP_HACATHON_24
+# DSN_AI_BOOTCAMP_HACKATHON_24
 # Heart Disease Prediction
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objective](#objective)
-- [Feature_Engineering](#feature_engineering)
-- [Dataset](#dataset)
+- [Feature](#feature)
 - [Model](#model)
 - [Acknowledgements](#acknowledgements)
 
@@ -16,21 +15,19 @@ The challenge at hand revolves around the creation of a sophisticated predictive
 The objective of this challenge is to design and build a predictive model capable of accurately determining the probability of an individual having heart disease. The focus is on leveraging machine learning techniques to create a model that can analyze relevant features and provide reliable predictions. The model should demonstrate high accuracy and generalizability, ensuring its effectiveness on new, unseen data.
 
 
-## Feature_Engineering
-Feature Engineering was performed on the dataset 
-## Dataset
-The dataset used for training the model is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Heart+Disease). The dataset contains various medical attributes such as age, sex, chest pain type, resting blood pressure, cholesterol levels, and more.
+## Feature
+The dataset contained no missing values,a column data type was changed to make all data int64 
+train_df["old peak"] = train_df["oldpeak"].astype('int64')
+futhermore the dataset was standardized using StandardScaler before fitted into the model
+
 
 ## Model
-The model is built using various machine learning algorithms, including:
-- Logistic Regression
-- Decision Trees
-- Random Forest
-- Support Vector Machines
+The model is built using Random Forest and Xgboost as both were stacked for better result .
+The model had an accuracy score of 0.8199863107460643
 
-The best-performing model is selected based on accuracy and other performance metrics.
+The model performance on the public and private leaderboard was 0.809750927, placing 152 in the competition out of over 400 participants , this secured me a spot in the prestigious DSN all expense paid bootcamp
 
 
 ## Acknowledgements
 - All contributors and participants of the hackathon.
-- Data Science Nigeria(DSN) for such wonderful Bootcamp
+- Data Science Nigeria(DSN) for such wonderful Hackathon
