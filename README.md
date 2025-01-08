@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objective](#objective)
-- [Features](#features)
+- [Feature_Engineering](#feature_engineering)
 - [Dataset](#dataset)
 - [Model](#model)
 - [Acknowledgements](#acknowledgements)
@@ -16,8 +16,8 @@ The challenge at hand revolves around the creation of a sophisticated predictive
 The objective of this challenge is to design and build a predictive model capable of accurately determining the probability of an individual having heart disease. The focus is on leveraging machine learning techniques to create a model that can analyze relevant features and provide reliable predictions. The model should demonstrate high accuracy and generalizability, ensuring its effectiveness on new, unseen data.
 
 
-## features
-Feature Engineering was performed on the data
+## Feature_Engineering
+Feature Engineering was performed on the dataset 
 ## Dataset
 The dataset used for training the model is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Heart+Disease). The dataset contains various medical attributes such as age, sex, chest pain type, resting blood pressure, cholesterol levels, and more.
 
