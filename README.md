@@ -4,8 +4,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objective](#objective)
-- [Features](#Features)
-- [Usage](#usage)
+- [Features](#features)
 - [Dataset](#dataset)
 - [Model](#model)
 - [Acknowledgements](#acknowledgements)
