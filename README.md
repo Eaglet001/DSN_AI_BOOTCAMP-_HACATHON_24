@@ -16,8 +16,10 @@ The objective of this challenge is to design and build a predictive model capabl
 
 
 ## Feature
-The dataset contained no missing values,a column data type was changed to make all data int64 
+The dataset contained no missing values,a column data type was changed to make all data int64,
+
 train_df["old peak"] = train_df["oldpeak"].astype('int64')
+
 futhermore the dataset was standardized using StandardScaler before fitted into the model
 
 
